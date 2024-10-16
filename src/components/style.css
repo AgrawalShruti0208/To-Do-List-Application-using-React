@@ -1,0 +1,94 @@
+.strikeText{
+    text-decoration: line-through 3px  #0F66CB;
+}
+
+
+.Header{
+    width: 100%;
+    padding: 20px;
+    background-color: #16191A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Heading{
+    margin: 0;
+}
+
+.taskInput{
+    padding: 7px;
+    width: 300px;
+    font-size:medium;
+    font-weight: 600;
+}
+
+.submitBtn{
+    padding: 7px;
+    width: 180px;
+    margin-left: 8px;
+    font-size:medium;
+    font-weight: 700;
+    background-color: rgb(180, 179, 179);
+    
+}
+
+.submitBtn:hover,.submitBtn:active{
+    background-color: white;
+    color: #012735;
+    border: 3px solid #999a9a;
+}
+
+.ToDoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0px;
+}
+
+.Task{
+    width: 700px;
+    height: 50px;
+    background-color: transparent;
+    box-shadow: 1px 2px 3px rgba(170, 156, 156, 0.579),-1px -1px 2px rgba(170, 156, 156, 0.579);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.actions{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    background-color: white;
+}
+
+.btn button{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.btn button:hover,.btn button:active{
+    background-color: rgb(18, 18, 18);
+    color: white;
+
+}
+
+.checkStatus{
+    zoom: 2;
+}
